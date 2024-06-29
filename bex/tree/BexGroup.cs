@@ -35,6 +35,7 @@ public class BexGroup : Bex
                 item.Next.Previous = item;
             }
         }
+        
 
         ConcatSuccesiveLiteralsToOne(Items);
     }
